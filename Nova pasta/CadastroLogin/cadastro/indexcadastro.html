@@ -1,0 +1,37 @@
+<html lang="pt-br">
+    <head>
+        <!--Serve par setar o UNICODE do site para o usado em PT-BR-->
+        <meta charset="UTF-8"/> 
+        <title>Tela de Login - Sejam Bem-Vindo </title>
+        
+        <!--vinculando a tela, com o CSS para estilizar a página-->
+        <link rel="stylesheet" type="text/css" href="../cadastro/csscadastro/indexcadastro.css">
+
+        <!--vinculando tela com o script que vamos criar as funcionalidades-->
+        <script src="../cadastro/jscadastro/indexcadastro.js"></script>
+
+        <!-- Para usar o  SweetAlert2 CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    </head>
+    <body>
+        <!--Essa div, representa onde todo o conteúdo do site vai ficar-->
+        <div class="container-principal">
+            <!-- aqui é o espaço onde vamos criar o formulário-->
+            <div class="formulario">
+                  <!-- adicionando campos do formulário-->
+
+                  <form id="form-cadastro" onsubmit="cadastro(event)">
+
+                    <input type="email" placeholder="Email:" id="email" required="true" minlength="" maxlength="25">
+                    <input type="password" placeholder="Senha:" id="senha" required="true" minlength="3" maxlength="8">
+                    <input type="password" placeholder="Repita a Senha:" id="senha2" required="true" minlength="4" maxlength="8">
+                    <input type="submit" value="Cadastro">
+
+                    <a href="../paglogin/index.html">Voltar ao Login</a>
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>

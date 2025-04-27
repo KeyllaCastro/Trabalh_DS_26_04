@@ -1,0 +1,37 @@
+Organização ddaas pastas:
+A estrutura do projeto foi organizada de forma que os arquivos de login e cadastro estão em pastas separadas, 
+e os arquivos HTML e CSS principais também foram divididos por função. A estrutura atual está da seguinte forma:
+
+O projeto é utilizado Home, Produtos, Quem somos, Contato, "Login ou Cadastro" e Login e Cadastro.
+
+NOVA PASTA/
+├── Cadastro/
+│   ├── csscadastro/
+│   │   └── indexcadastro.css
+│   ├── jscadastro/
+│   │   └── indexcadastro.js
+│   └── indexcadastro.html
+├── Login/
+│   ├── css/
+│   │   └── index.css
+│   ├── html/
+│   │   └── home.html
+│   └── js/
+│       └── index.js
+├── pagInicial/
+│   ├── CSS/
+│   │   └── inicial.css
+│   ├── JS/
+│   │   └── jsinicial.js
+│   └── indexinicial.html
+├── paglogin/
+│   └── index.html
+├── CSS/
+│   ├── imagens/     
+│   └── style.css    
+└── HTML/
+    ├── contato.html
+    ├── index.html
+    ├── produtos.html
+    └── quemsomos.html
+├── Estrutura e Funcionamento.txt
